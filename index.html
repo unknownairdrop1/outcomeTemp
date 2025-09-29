@@ -13493,5 +13493,13 @@
             </div>
     </div>
 </div>
+    <script>
+          window.toggleEvent = function (eventId) {
+            const content = document.getElementById(`event-content-${eventId}`);
+            if (content) {
+                content.classList.toggle('expanded');
+            }
+        };
+    </script>
 </body>
 </html>
